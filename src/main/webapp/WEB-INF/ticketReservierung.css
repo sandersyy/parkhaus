@@ -1,0 +1,75 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.top-nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navbar links */
+.top-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+    float: left;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+    text-align: center;
+}
+
+/* Clear floats after the cwhiteolumns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.submit {
+    text-align: center;
+    align-items: center;
+}

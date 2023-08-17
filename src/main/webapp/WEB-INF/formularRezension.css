@@ -1,0 +1,97 @@
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    text-align: center;
+
+}
+.completeFeedback{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: dimgray;
+    width: 800px;
+    height: 350px;
+    border-style: outset;
+    border-width: 10px;
+    padding: 50px;
+    margin: 100px auto 130px;
+
+}
+.h2{
+    position: relative;
+    top: -1em;
+    font-size: 30px;
+    color: white;
+
+}
+.button{
+
+    position: relative;
+    bottom: -1.8em;
+    font-size: 15px;
+}
+.feedback {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-left: 10px;
+    position: relative;
+    bottom: 1em;
+    width: 520px;
+    height: 170px;
+    font-size: 16px;
+    resize: none;
+}
+.user {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    position: relative;
+    top: -1.9em;
+    left: -6em;
+    width: 350px;
+    font-size: 13px;
+    resize: none;
+}
+.points{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    position: relative;
+    top: -4.93em;
+    right: -17.2em;
+    width: 80px;
+    font-size: 13px;
+    resize: none;
+}
+a {
+    color: grey;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 50px;
+}
+a:hover{
+    color: black;
+}
+.footer {
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+
+}
+h4{
+    text-align: center;
+    margin: 0;
+    position: relative;
+    bottom: -5em;
+    color: red;
+}
+
